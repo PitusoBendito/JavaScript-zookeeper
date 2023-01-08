@@ -1,0 +1,9 @@
+habitat = [camel, lion, deer, goose, bat, rabbit];
+prompt = input("Please enter the number of the habitat you would like to view:");
+console.log(habitat[prompt]);
+
+while(prompt !== "exit") {
+  prompt = input("Please enter the number of the habitat you would like to view:");
+  console.log(habitat[prompt]);
+}
+console.log("See you later!");
